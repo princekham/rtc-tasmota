@@ -28,4 +28,6 @@ The following commands need to be used
 #ifndef RTC_NTP_SERVER
 #define RTC_NTP_SERVER
 #endif
+
+#define USE_RTC_ADDR    0x68   
 ```
