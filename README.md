@@ -25,5 +25,7 @@ The following commands need to be used
 #ifndef USE_DS3231
 #define USE_DS3231                  // [I2cDriver26] Enable DS3231 RTC (I2C address 0x68) (+1k2 code)
 #endif
+#ifndef RTC_NTP_SERVER
 #define RTC_NTP_SERVER
+#endif
 ```
