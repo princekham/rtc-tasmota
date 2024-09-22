@@ -16,3 +16,14 @@ The following commands need to be used
   
 ![image](https://github.com/princekham/rtc-tasmota/assets/16104631/078b5ecd-e9b1-4dbc-9151-a008d08c89b9)
 
+### For Custom compile, I added the following codes and RTC NTP server setup
+
+```
+#ifndef USE_RTC_CHIPS 
+#define USE_RTC_CHIPS               // Enable RTC chip support and NTP server
+#endif
+#ifndef USE_DS3231
+#define USE_DS3231                  // [I2cDriver26] Enable DS3231 RTC (I2C address 0x68) (+1k2 code)
+#endif
+#define RTC_NTP_SERVER
+```
