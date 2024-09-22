@@ -11,7 +11,7 @@ The following commands need to be used
 ## For custom edit
 - I use Docker with my Raspberry Pi 4. ( See in the other thread)
 
-## RTC connecting to Node MCU in Tasmota
+## RTC connecting to Node MCU in Tasmota 
 - https://tasmota.github.io/docs/DS3231/#tasmota-settings
 ![image](https://github.com/princekham/rtc-tasmota/assets/16104631/078b5ecd-e9b1-4dbc-9151-a008d08c89b9)
 
