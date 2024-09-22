@@ -32,8 +32,8 @@ The following commands need to be used
 ```
 ### For custom compile
 
-https://arendst-tasmota-1d5026udz4a.ws-us116.gitpod.io/
-then go to tasmota
+- First open https://arendst-tasmota-1d5026udz4a.ws-us116.gitpod.io/
+- then go to 'tasmota' on the left window
 then click
  user_config_override.h 
 paste your config file just above the last endif statement
