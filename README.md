@@ -30,3 +30,14 @@ The following commands need to be used
 
 
 ```
+### For custom compile
+
+https://arendst-tasmota-1d5026udz4a.ws-us116.gitpod.io/
+then go to tasmota
+then click
+ user_config_override.h 
+paste your config file just above the last endif statement
+- you can configure your SSID, etc in my_user_config.h
+- then type in the command "platformio run -e tasmota"
+- then under folder name 'build_output/firmware' , you will see tasmota.bin file
+- from source (https://www.youtube.com/watch?v=WashxTcHiDc&ab_channel=vccground)
